@@ -19,7 +19,7 @@ const Navigation = ({ isSignedIn, route, onRouteChange }) => {
         else {
             return (
                 <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
-                    <p className='f3 link dim black underline pa3 pointer'></p>
+                    <p className='f2 link dim underline pa3 pointer'></p>
                 </nav>
             );
         }
